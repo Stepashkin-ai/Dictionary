@@ -1,0 +1,16 @@
+#include <QMap>
+#include <QString>
+#include <QVector>
+#include <QTextBlock>
+#ifndef WORD_H
+#define WORD_H
+
+
+class word
+{
+   QVector <QString> translators;
+public:
+    word(QString);
+};
+
+#endif // WORD_H
